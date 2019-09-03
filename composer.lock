@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fc6931739570c25790ca1b74e749ee2f",
+    "content-hash": "3e10c45322110e660fc4437a5a20ffb3",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -285,16 +285,16 @@
         },
         {
             "name": "smsfactor/smsfactor-php-sdk",
-            "version": "v1.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/smsfactor/smsfactor-php-sdk.git",
-                "reference": "7ed9c759827fd34d7299776553b78a8ce2903e02"
+                "reference": "8618f2af26c028581b92946552495b90136e3df3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/smsfactor/smsfactor-php-sdk/zipball/7ed9c759827fd34d7299776553b78a8ce2903e02",
-                "reference": "7ed9c759827fd34d7299776553b78a8ce2903e02",
+                "url": "https://api.github.com/repos/smsfactor/smsfactor-php-sdk/zipball/8618f2af26c028581b92946552495b90136e3df3",
+                "reference": "8618f2af26c028581b92946552495b90136e3df3",
                 "shasum": ""
             },
             "require": {
@@ -320,7 +320,7 @@
                 "api",
                 "sms"
             ],
-            "time": "2019-04-25T15:21:27+00:00"
+            "time": "2019-09-02T14:14:56+00:00"
         }
     ],
     "packages-dev": [],
