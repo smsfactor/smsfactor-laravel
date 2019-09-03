@@ -1,4 +1,4 @@
-# SMSFactor Client library for PHP
+# SMSFactor Package for Laravel
 
 The Laravel Service Provider that allows you to use [SMSFactor PHP Client library](https://github.com/smsfactor/smsfactor-php-sdk).
 
@@ -36,7 +36,7 @@ use SMSFactor\Laravel\Facade\Webhook;
 use SMSFactor\Laravel\Facade\Token;
 ```
 
-Or add an aliases in your ```config/app.php```:
+Or add any alias in your ```config/app.php```:
 
 ```php
 'aliases' => [
@@ -68,7 +68,7 @@ Message::send([
 	'to' => '33600000000',
 	'text' => 'Did you ever dance whith the devil in the pale moonlight ?'
 ]);
-print_r($response->getJson()); //In case you don't receieve your text, printing the API response might be useful
+print_r($response->getJson()); //In case you don't receive your text, printing the API response might be useful
 ```
 
 or 
