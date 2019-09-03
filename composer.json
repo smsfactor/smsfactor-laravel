@@ -1,0 +1,38 @@
+{
+    "name": "smsfactor/smsfactor-laravel",
+    "description": "Laravel package for SMSFactor API",
+    "type": "library",
+    "require": {
+        "php": ">=5.3",
+        "guzzlehttp/guzzle": "^6.3",
+        "smsfactor/smsfactor-php-sdk": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fanch",
+            "email": "francois@smsfactor.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SMSFactor\\Laravel\\SMSFactorServiceProvider"
+            ],
+            "aliases": {
+                "Account": "SMSFactor\\Laravel\\Facade\\Account",
+                "Campaign": "SMSFactor\\Laravel\\Facade\\Campaign",
+                "Message": "SMSFactor\\Laravel\\Facade\\Message",
+                "ContactList": "SMSFactor\\Laravel\\Facade\\ContactList",
+                "Webhook": "SMSFactor\\Laravel\\Facade\\Webhook",
+                "Token": "SMSFactor\\Laravel\\Facade\\Token"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "SMSFactor\\Laravel\\": "src/"
+        }
+    }
+}
