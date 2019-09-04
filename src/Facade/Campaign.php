@@ -15,6 +15,6 @@ class Campaign extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return \SMSFactor\Campaign::class;
+        return 'SMSFactor\Campaign';
     }
 }

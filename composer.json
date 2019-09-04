@@ -3,7 +3,7 @@
     "description": "Laravel package for SMSFactor API",
     "type": "library",
     "require": {
-        "php": ">=5.3",
+        "php": ">=5.4",
         "guzzlehttp/guzzle": "^6.3",
         "smsfactor/smsfactor-php-sdk": "^1.0"
     },

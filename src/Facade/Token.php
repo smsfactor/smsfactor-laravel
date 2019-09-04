@@ -15,6 +15,6 @@ class Token extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return \SMSFactor\Token::class;
+        return 'SMSFactor\Token';
     }
 }

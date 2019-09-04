@@ -15,6 +15,6 @@ class ContactList extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return \SMSFactor\ContactList::class;
+        return 'SMSFactor\ContactList';
     }
 }

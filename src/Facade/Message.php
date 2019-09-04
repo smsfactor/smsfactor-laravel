@@ -15,6 +15,6 @@ class Message extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return \SMSFactor\Message::class;
+        return 'SMSFactor\Message';
     }
 }

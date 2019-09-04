@@ -15,6 +15,6 @@ class Webhook extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return \SMSFactor\Webhook::class;
+        return 'SMSFactor\Webhook';
     }
 }

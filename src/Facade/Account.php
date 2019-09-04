@@ -15,6 +15,6 @@ class Account extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return \SMSFactor\Account::class;
+        return 'SMSFactor\Account';
     }
 }

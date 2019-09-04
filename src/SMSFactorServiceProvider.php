@@ -4,12 +4,6 @@ namespace SMSFactor\Laravel;
 
 use Illuminate\Support\ServiceProvider;
 use SMSFactor\SMSFactor;
-use SMSFactor\Account;
-use SMSFactor\Campaign;
-use SMSFactor\ContactList;
-use SMSFactor\Message;
-use SMSFactor\Token;
-use SMSFactor\Webhook;
 
 use Log;
 
@@ -22,12 +16,12 @@ class SMSFactorServiceProvider extends ServiceProvider
      * @var array
      */
     public $singletons = [
-        Account::class      => Account::class,
-        Campaign::class     => Campaign::class,
-        ContactList::class  => ContactList::class,
-        Message::class      => Message::class,
-        Token::class        => Token::class,
-        Webhook::class      => Webhook::class
+        'SMSFactor\Account'      => 'SMSFactor\Account',
+        'SMSFactor\Campaign'     => 'SMSFactor\Campaign',
+        'SMSFactor\ContactList'  => 'SMSFactor\ContactList',
+        'SMSFactor\Message'      => 'SMSFactor\Message',
+        'SMSFactor\Token'        => 'SMSFactor\Token',
+        'SMSFactor\Webhook'      => 'SMSFactor\Webhook'
     ];
 
     /**
