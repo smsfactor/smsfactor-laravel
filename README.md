@@ -9,7 +9,7 @@ You can find the complete documentation of our API [here](https://dev.smsfactor.
 
 We recommend using [Composer](https://getcomposer.org/) to install the PHP client library to your project.
 
-    composer require smsfactor/laravel
+    composer require smsfactor/smsfactor-laravel
 
 **Laravel 5.5+**
 
