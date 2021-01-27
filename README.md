@@ -64,7 +64,7 @@ Then update ```config/smsfactor.php``` with your token.
 To use the SMSFactor Client Library you can use the facades, or request an instance from the service container:
 
 ```php
-Message::send([
+$response = Message::send([
 	'to' => '33600000000',
 	'text' => 'Did you ever dance whith the devil in the pale moonlight ?'
 ]);
@@ -75,7 +75,7 @@ or
 
 ```php
 $account = app('SMSFactor\Message');
-$account->send([
+$response = $account->send([
 	'to' => '33600000000',
 	'text' => 'Did you ever dance whith the devil in the pale moonlight ?'
 ]);
