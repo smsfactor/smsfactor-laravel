@@ -66,7 +66,7 @@ To use the SMSFactor Client Library you can use the facades, or request an insta
 ```php
 $response = Message::send([
 	'to' => '33600000000',
-	'text' => 'Did you ever dance with the devil in the pale moonlight ?'
+	'text' => 'Have you ever danced with the devil in the pale moonlight ?'
 ]);
 print_r($response->getJson()); //In case you don't receive your text, printing the API response might be useful
 ```
@@ -77,7 +77,7 @@ or
 $account = app('SMSFactor\Message');
 $response = $account->send([
 	'to' => '33600000000',
-	'text' => 'Did you ever dance with the devil in the pale moonlight ?'
+	'text' => 'Have you ever danced with the devil in the pale moonlight ?'
 ]);
 print_r($response->getJson());
 ```
