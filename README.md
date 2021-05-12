@@ -1,4 +1,4 @@
-# SMSFactor Package for Laravel
+# SMS API Package for Laravel
 
 The Laravel Service Provider that allows you to use [SMSFactor PHP Client library](https://github.com/smsfactor/smsfactor-php-sdk).
 
